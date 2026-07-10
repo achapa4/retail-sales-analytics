@@ -40,17 +40,30 @@ insights using Python and Tableau.
 retail-sales-analytics/
 │
 ├── data/
-│   ├── raw/              ← Original dataset (unmodified)
-│   └── clean/            ← Cleaned data & Excel reports
+│   ├── raw/
+│   │   └── retail_sales_dataset.csv        # Original dataset (never modify)
+│   │
+│   └── clean/
+│       ├── retail_sales_clean.csv          # Cleaned dataset
+│       └── sales_report.xlsx               # Excel summary/report
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb      ← Data cleaning & EDA
-│   └── 02_insights.ipynb ← Business insights & analysis
+│   ├── 01_eda.ipynb                        # Data cleaning & exploratory data analysis
+│   └── 02_insights.ipynb                   # Business insights & analysis
 │
-├── visuals/              ← Exported charts & graphs
-├── dashboard/            ← Tableau workbook (.twbx)
-├── requirements.txt      ← Python dependencies
-└── README.md
+├── visuals/
+│   ├── sales_by_category.png
+│   ├── monthly_sales_trend.png
+│   ├── customer_age_distribution.png
+│   ├── gender_sales.png
+│   └── top_products.png
+│
+├── dashboard/
+│   └── Retail_Sales_Dashboard.twbx         # Tableau workbook
+│
+├── requirements.txt                        # Python dependencies
+├── README.md                               # Project documentation
+└── .gitignore                              # Files ignored by Git
 
 
 ## 📊 Dashboard
