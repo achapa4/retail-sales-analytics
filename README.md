@@ -37,7 +37,7 @@ insights using Python and Tableau.
 | Jupyter Notebook | Development environment |
 
 ##  Project Structure
-retail-sales-analytics/
+'''retail-sales-analytics/
 │
 ├── data/
 │   ├── raw/
@@ -64,7 +64,7 @@ retail-sales-analytics/
 ├── requirements.txt                        # Python dependencies
 ├── README.md                               # Project documentation
 └── .gitignore                              # Files ignored by Git
-
+'''
 
 ## 📊 Dashboard
 🔗 [View Live Tableau Dashboard](YOUR_TABLEAU_PUBLIC_URL_HERE)
